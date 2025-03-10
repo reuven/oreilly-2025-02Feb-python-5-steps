@@ -6,3 +6,7 @@ def menu(list_of_options):
             return user_choice
     
         print(f'{user_choice} is invalid; try again')
+
+if __name__ == '__main__':
+    user_choice = menu(['a', 'b', 'c'])
+    print(f'You chose {user_choice}')
