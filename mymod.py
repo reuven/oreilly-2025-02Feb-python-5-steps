@@ -1,3 +1,4 @@
+if __name__ 
 print(f'Hello from {__name__}!')
 
 x = 5
